@@ -25,7 +25,9 @@ SECRET_KEY = '@eg(5+l0j66yq^&eimkh6mv509g$h8-h=ih$^6bm1yjz!bfzp6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'yutubers.herokuappp.com'
+]
 
 LOGIN_REDIRECT_URL = 'dashboard'
 # Application definition
